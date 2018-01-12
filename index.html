@@ -21,7 +21,7 @@ var editboxHTML ='<html class="expand close">'+
 'function models(){var model = document.getElementById("model").value;editor.session.setMode("ace/mode/"+model);}'+
 '<\/script><\/body><\/html>';
 
-var defaultStuff = "<script src=\"dist\/js\/jquery-1.8.3.min.js\" type=\"text\/javascript\"><\/script>\n<script>\ndocument.write();\n<\/script>";
+var defaultStuff = "<script src=\"dist\/js\/jquery-1.8.3.min.js\" type=\"text\/javascript\"><\/script>\n<script>\ndocument.write('Write HTML left');\n<\/script>";
 var old = "";
 function init(){
 	window.editbox.document.open();
